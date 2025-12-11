@@ -1,7 +1,6 @@
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import { Clock, Mail, MapPin, Phone, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+import { Link } from "react-router-dom";
 
 const ContactSection = () => {
   return (
@@ -17,9 +16,8 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Info */}
-          <div>
+        <div className="max-w-2xl mx-auto">
+          <div className="bg-card p-8 rounded-2xl border border-border">
             <h3 className="font-display text-xl font-semibold text-foreground mb-6">
               Informações de Contato
             </h3>
@@ -76,62 +74,13 @@ const ContactSection = () => {
             <div className="mt-8 h-64 bg-muted rounded-2xl flex items-center justify-center">
               <p className="text-muted-foreground">Mapa da localização</p>
             </div>
-          </div>
 
-          {/* Contact Form */}
-          <div className="bg-card p-8 rounded-2xl border border-border">
-            <h3 className="font-display text-xl font-semibold text-foreground mb-6">
-              Envie uma mensagem
-            </h3>
-            
-            <form className="space-y-5">
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="text-sm font-medium text-foreground mb-2 block">
-                    Nome completo
-                  </label>
-                  <Input placeholder="Seu nome" />
-                </div>
-                <div>
-                  <label className="text-sm font-medium text-foreground mb-2 block">
-                    Telefone
-                  </label>
-                  <Input placeholder="(00) 00000-0000" />
-                </div>
-              </div>
-              
-              <div>
-                <label className="text-sm font-medium text-foreground mb-2 block">
-                  E-mail
-                </label>
-                <Input type="email" placeholder="seu@email.com" />
-              </div>
-              
-              <div>
-                <label className="text-sm font-medium text-foreground mb-2 block">
-                  Nome da criança
-                </label>
-                <Input placeholder="Nome do seu filho(a)" />
-              </div>
-              
-              <div>
-                <label className="text-sm font-medium text-foreground mb-2 block">
-                  Mensagem
-                </label>
-                <Textarea 
-                  placeholder="Conte-nos um pouco sobre as necessidades do seu filho(a)..." 
-                  rows={4}
-                />
-              </div>
-              
-              <Button type="submit" className="w-full" size="lg">
-                Enviar Mensagem
-              </Button>
-              
-              <p className="text-xs text-muted-foreground text-center">
-                Ao enviar, você concorda com nossa política de privacidade.
-              </p>
-            </form>
+            <Button asChild size="lg" className="w-full mt-8">
+              <Link to="/agendar">
+                <Calendar className="w-5 h-5 mr-2" />
+                Agende sua Avaliação
+              </Link>
+            </Button>
           </div>
         </div>
       </div>
