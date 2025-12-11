@@ -3,23 +3,23 @@ import { BookOpen, Brain, Heart, Users } from "lucide-react";
 const features = [
   {
     icon: Brain,
-    title: "Avaliação Especializada",
-    description: "Diagnóstico preciso com avaliação neuropsicológica completa para identificar necessidades específicas.",
+    title: "Avaliação Multidisciplinar",
+    description: "Diagnóstico completo para identificar perfis neurodiversos: autismo, TDAH, dislexia e outros.",
   },
   {
     icon: BookOpen,
-    title: "Intervenção Pedagógica",
-    description: "Métodos de ensino adaptados para crianças com dislexia e dificuldades de aprendizagem.",
+    title: "Metodologia Especializada",
+    description: "Intervenções baseadas em evidências, adaptadas às necessidades únicas de cada criança neurodiversa.",
   },
   {
     icon: Heart,
-    title: "Acompanhamento Emocional",
-    description: "Suporte psicológico para desenvolver autoestima e confiança nas crianças.",
+    title: "Desenvolvimento Integral",
+    description: "Abordagem que integra aspectos cognitivos, emocionais e sociais do desenvolvimento.",
   },
   {
     icon: Users,
-    title: "Orientação Familiar",
-    description: "Envolvemos a família no processo de desenvolvimento para melhores resultados.",
+    title: "Parceria com a Família",
+    description: "Orientação e capacitação familiar para potencializar o desenvolvimento em casa.",
   },
 ];
 
@@ -33,8 +33,9 @@ const AboutSection = () => {
             Clínica de Intervenção do Desenvolvimento Humano
           </h2>
           <p className="text-lg text-muted-foreground">
-            A Attento nasceu da paixão por ajudar crianças a superarem suas dificuldades de aprendizagem. 
-            Acreditamos que toda criança tem potencial único e merece o suporte adequado para florescer.
+            A Attento nasceu da paixão por ajudar crianças neurodiversas a alcançarem seu potencial máximo. 
+            Desenvolvemos metodologias especializadas para autismo, TDAH, dislexia e outros perfis, 
+            respeitando a individualidade de cada criança.
           </p>
         </div>
 
@@ -62,33 +63,33 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="font-display text-2xl md:text-3xl font-bold text-foreground mb-4">
-                O que é a Dislexia?
+                O que é Neurodiversidade?
               </h3>
               <p className="text-muted-foreground mb-4">
-                A dislexia é um transtorno específico de aprendizagem que afeta a leitura, escrita e soletração. 
-                Não está relacionada à inteligência - muitas pessoas com dislexia são extremamente criativas e talentosas.
+                Neurodiversidade reconhece que cérebros funcionam de maneiras diferentes — não melhores ou piores, 
+                apenas diferentes. Inclui autismo, TDAH, dislexia, dispraxia e outros perfis neurológicos.
               </p>
               <p className="text-muted-foreground">
-                Com a intervenção adequada, crianças com dislexia podem desenvolver estratégias eficazes 
-                para superar seus desafios e alcançar sucesso acadêmico e pessoal.
+                Na Attento, celebramos essas diferenças e desenvolvemos metodologias que respeitam 
+                e potencializam as habilidades únicas de cada criança neurodiversa.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-coral-light/20 p-6 rounded-2xl text-center">
-                <div className="font-display text-3xl font-bold text-coral-dark">5-10%</div>
-                <div className="text-sm text-muted-foreground mt-1">da população mundial</div>
+                <div className="font-display text-3xl font-bold text-coral-dark">15-20%</div>
+                <div className="text-sm text-muted-foreground mt-1">são neurodiversos</div>
               </div>
               <div className="bg-teal-light/50 p-6 rounded-2xl text-center">
-                <div className="font-display text-3xl font-bold text-teal">Hereditária</div>
-                <div className="text-sm text-muted-foreground mt-1">fator genético</div>
+                <div className="font-display text-3xl font-bold text-teal">Único</div>
+                <div className="text-sm text-muted-foreground mt-1">cada perfil é especial</div>
               </div>
               <div className="bg-secondary p-6 rounded-2xl text-center">
-                <div className="font-display text-3xl font-bold text-primary">Tratável</div>
-                <div className="text-sm text-muted-foreground mt-1">com intervenção</div>
+                <div className="font-display text-3xl font-bold text-primary">Potencial</div>
+                <div className="text-sm text-muted-foreground mt-1">habilidades únicas</div>
               </div>
               <div className="bg-muted p-6 rounded-2xl text-center">
-                <div className="font-display text-3xl font-bold text-foreground">Precoce</div>
-                <div className="text-sm text-muted-foreground mt-1">diagnóstico ideal</div>
+                <div className="font-display text-3xl font-bold text-foreground">Intervenção</div>
+                <div className="text-sm text-muted-foreground mt-1">faz a diferença</div>
               </div>
             </div>
           </div>

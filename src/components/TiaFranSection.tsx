@@ -43,14 +43,14 @@ const TiaFranSection = () => {
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
               Francisca, carinhosamente conhecida como Tia Fran, é a fundadora e alma da Clínica Attento. 
-              Com uma trajetória dedicada ao desenvolvimento infantil, ela transformou sua paixão por 
-              ajudar crianças em uma missão de vida.
+              Com uma trajetória dedicada ao desenvolvimento de crianças neurodiversas, ela transformou 
+              sua paixão em uma missão de vida.
             </p>
             <p className="text-muted-foreground mb-8">
-              Especializada em intervenção pedagógica para crianças com dificuldades de aprendizagem, 
-              Tia Fran desenvolveu metodologias únicas que combinam técnicas baseadas em evidências 
-              científicas com uma abordagem acolhedora e humanizada. Seu trabalho já impactou 
-              positivamente centenas de famílias.
+              Especializada em metodologias de intervenção para autismo, TDAH, dislexia e outros perfis 
+              neurodiversos, Tia Fran desenvolveu abordagens únicas que combinam técnicas baseadas em 
+              evidências científicas com uma visão humanizada. Seu trabalho já transformou a vida 
+              de centenas de famílias.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4">
@@ -58,14 +58,14 @@ const TiaFranSection = () => {
                 <GraduationCap className="w-6 h-6 text-primary mt-1" />
                 <div>
                   <div className="font-semibold text-foreground">Formação Especializada</div>
-                  <div className="text-sm text-muted-foreground">Psicopedagogia e Neuroaprendizagem</div>
+                  <div className="text-sm text-muted-foreground">Neurociência e Desenvolvimento Humano</div>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-4 bg-secondary/50 rounded-xl">
                 <Star className="w-6 h-6 text-primary mt-1" />
                 <div>
                   <div className="font-semibold text-foreground">Metodologia Própria</div>
-                  <div className="text-sm text-muted-foreground">Técnicas exclusivas e eficazes</div>
+                  <div className="text-sm text-muted-foreground">Para neurodiversos</div>
                 </div>
               </div>
               <div className="flex items-start gap-3 p-4 bg-secondary/50 rounded-xl">
