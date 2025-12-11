@@ -5,37 +5,37 @@ const services = [
   {
     icon: Brain,
     title: "Avaliação Neuropsicológica",
-    description: "Avaliação completa para identificar dislexia, TDAH e outros transtornos de aprendizagem.",
+    description: "Diagnóstico completo para autismo, TDAH, dislexia e outros perfis neurodiversos.",
     color: "bg-coral-light/20 text-coral-dark",
   },
   {
     icon: BookOpen,
-    title: "Intervenção Psicopedagógica",
-    description: "Sessões individualizadas para desenvolver habilidades de leitura, escrita e raciocínio.",
+    title: "Intervenção ABA",
+    description: "Análise do Comportamento Aplicada para desenvolvimento de habilidades e autonomia.",
     color: "bg-teal-light/50 text-teal",
   },
   {
     icon: Puzzle,
     title: "Estimulação Cognitiva",
-    description: "Atividades lúdicas que desenvolvem memória, atenção e funções executivas.",
+    description: "Metodologias lúdicas para desenvolver funções executivas, atenção e memória.",
     color: "bg-secondary text-primary",
   },
   {
     icon: MessageSquare,
     title: "Fonoaudiologia",
-    description: "Tratamento especializado para dificuldades de fala, linguagem e processamento auditivo.",
+    description: "Intervenção em comunicação, linguagem e processamento auditivo para neurodiversos.",
     color: "bg-coral-light/20 text-coral-dark",
   },
   {
     icon: Sparkles,
     title: "Terapia Ocupacional",
-    description: "Desenvolvimento de habilidades motoras e de coordenação essenciais para a aprendizagem.",
+    description: "Integração sensorial e desenvolvimento motor para autonomia nas atividades diárias.",
     color: "bg-teal-light/50 text-teal",
   },
   {
     icon: Users,
-    title: "Orientação aos Pais",
-    description: "Grupos de apoio e orientações práticas para auxiliar no desenvolvimento em casa.",
+    title: "Orientação Familiar",
+    description: "Capacitação dos pais para aplicar estratégias de desenvolvimento em casa.",
     color: "bg-secondary text-primary",
   },
 ];
@@ -47,11 +47,11 @@ const ServicesSection = () => {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <span className="text-primary font-semibold text-sm uppercase tracking-wider">Nossos Serviços</span>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mt-3 mb-6">
-            Cuidado completo para o desenvolvimento do seu filho
+            Metodologias especializadas para neurodiversos
           </h2>
           <p className="text-lg text-muted-foreground">
-            Oferecemos uma abordagem multidisciplinar, com profissionais especializados 
-            trabalhando em conjunto para os melhores resultados.
+            Equipe multidisciplinar com metodologias baseadas em evidências científicas, 
+            adaptadas às necessidades únicas de cada criança.
           </p>
         </div>
 

@@ -24,18 +24,18 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-secondary px-4 py-2 rounded-full mb-6 animate-fade-in">
             <Heart className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-foreground">Cuidado especializado para seu filho</span>
+            <span className="text-sm font-medium text-foreground">Metodologia especializada para neurodiversos</span>
           </div>
           
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            Transformando desafios em{" "}
-            <span className="text-gradient">conquistas</span>
+            Intervenção do{" "}
+            <span className="text-gradient">Desenvolvimento Humano</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            A Attento é uma clínica especializada no desenvolvimento de crianças com dislexia 
-            e outros transtornos de aprendizagem. Oferecemos um ambiente acolhedor e 
-            profissionais dedicados ao crescimento do seu filho.
+            A Attento é uma clínica especializada em metodologias para neurodiversos — 
+            autismo, TDAH, dislexia e outros perfis. Oferecemos um ambiente acolhedor 
+            com intervenções personalizadas para o desenvolvimento pleno do seu filho.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: "0.3s" }}>

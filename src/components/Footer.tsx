@@ -9,7 +9,7 @@ const Footer = () => {
             <h3 className="font-display text-2xl font-bold mb-3">ATTENTO</h3>
             <p className="text-background/70 mb-4 max-w-md">
               Clínica de Intervenção do Desenvolvimento Humano. 
-              Dedicados ao desenvolvimento de crianças com dislexia e dificuldades de aprendizagem.
+              Metodologia especializada para neurodiversos: autismo, TDAH, dislexia e mais.
             </p>
             <div className="flex gap-4">
               <a 
@@ -51,7 +51,7 @@ const Footer = () => {
             <h4 className="font-display font-semibold mb-4">Serviços</h4>
             <nav className="space-y-2">
               <a href="#servicos" className="block text-background/70 hover:text-primary transition-colors">Avaliação Neuropsicológica</a>
-              <a href="#servicos" className="block text-background/70 hover:text-primary transition-colors">Psicopedagogia</a>
+              <a href="#servicos" className="block text-background/70 hover:text-primary transition-colors">Intervenção ABA</a>
               <a href="#servicos" className="block text-background/70 hover:text-primary transition-colors">Fonoaudiologia</a>
               <a href="#servicos" className="block text-background/70 hover:text-primary transition-colors">Terapia Ocupacional</a>
             </nav>
