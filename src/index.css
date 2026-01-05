@@ -15,7 +15,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 25 30% 15%;
 
-    --primary: 24 95% 53%;
+    --primary: 152 55% 45%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 45 100% 96%;
@@ -24,7 +24,7 @@
     --muted: 30 30% 94%;
     --muted-foreground: 25 20% 45%;
 
-    --accent: 185 60% 45%;
+    --accent: 152 45% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -32,7 +32,7 @@
 
     --border: 30 30% 88%;
     --input: 30 30% 88%;
-    --ring: 24 95% 53%;
+    --ring: 152 55% 45%;
 
     --radius: 1rem;
 
@@ -41,14 +41,14 @@
     --coral-light: 16 85% 75%;
     --coral-dark: 16 85% 45%;
     --cream: 40 50% 96%;
-    --teal: 185 60% 45%;
-    --teal-light: 185 50% 85%;
+    --teal: 152 55% 45%;
+    --teal-light: 152 45% 85%;
     --warm-gray: 30 10% 50%;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(16 85% 60%) 0%, hsl(35 90% 55%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(152 55% 45% / 0.15) 0%, hsl(86 56% 55% / 0.1) 50%, hsl(40 85% 92% / 0.2) 100%);
     --gradient-soft: linear-gradient(180deg, hsl(40 50% 96%) 0%, hsl(0 0% 100%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(185 60% 45%) 0%, hsl(185 50% 60%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(152 55% 45%) 0%, hsl(86 56% 55%) 100%);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -70,8 +70,8 @@
     --popover: 25 25% 12%;
     --popover-foreground: 30 30% 95%;
 
-    --primary: 24 95% 58%;
-    --primary-foreground: 25 30% 8%;
+    --primary: 152 55% 50%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 25 25% 18%;
     --secondary-foreground: 30 30% 95%;
@@ -79,25 +79,25 @@
     --muted: 25 20% 20%;
     --muted-foreground: 30 20% 60%;
 
-    --accent: 185 60% 50%;
-    --accent-foreground: 25 30% 8%;
+    --accent: 152 45% 60%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 25 20% 20%;
     --input: 25 20% 20%;
-    --ring: 24 95% 58%;
+    --ring: 152 55% 50%;
     
     --coral: 16 85% 65%;
     --coral-light: 16 75% 40%;
     --coral-dark: 16 85% 50%;
     --cream: 30 20% 15%;
-    --teal: 185 60% 50%;
-    --teal-light: 185 40% 25%;
+    --teal: 152 55% 50%;
+    --teal-light: 152 40% 25%;
     --warm-gray: 30 10% 60%;
     
-    --gradient-hero: linear-gradient(135deg, hsl(16 85% 55%) 0%, hsl(35 85% 50%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(152 55% 45% / 0.2) 0%, hsl(86 56% 50% / 0.15) 100%);
     --gradient-soft: linear-gradient(180deg, hsl(25 25% 12%) 0%, hsl(25 30% 8%) 100%);
 
     --sidebar-background: 240 5.9% 10%;
