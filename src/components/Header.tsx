@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,7 +34,7 @@ const Header = () => {
               </a>
             ))}
             <Button variant="default" size="sm" asChild>
-              <a href="#contato">Agende uma Consulta</a>
+              <Link to ="/agendar">Agende uma Consulta</Link>
             </Button>
           </nav>
 
@@ -62,7 +63,7 @@ const Header = () => {
                 </a>
               ))}
               <Button variant="default" className="mt-2" asChild>
-                <a href="#contato">Agende uma Consulta</a>
+                <Link to="/agendar">Agende uma Consulta</Link>
               </Button>
             </div>
           </nav>

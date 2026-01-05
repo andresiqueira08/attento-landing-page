@@ -1,5 +1,6 @@
 import { BookOpen, Brain, MessageSquare, Puzzle, Sparkles, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const services = [
   {
@@ -78,21 +79,23 @@ const ServicesSection = () => {
         </div>
 
         {/* CTA */}
-        <div className="mt-16 text-center">
-          <div className="inline-block bg-gradient-hero p-8 md:p-12 rounded-3xl">
-            <h3 className="font-display text-2xl md:text-3xl font-bold text-primary-foreground mb-4">
-              Pronto para dar o primeiro passo?
-            </h3>
-            <p className="text-primary-foreground/90 mb-6 max-w-xl mx-auto">
-              Agende uma avaliação inicial e descubra como podemos ajudar 
-              seu filho a alcançar todo seu potencial.
-            </p>
-            <Button size="lg" variant="secondary" className="text-lg px-8" asChild>
-              <a href="#contato">Agende Agora</a>
-            </Button>
-          </div>
-        </div>
-      </div>
+<div className="mt-16 text-center">
+  <div className="inline-block bg-cta-dark p-8 md:p-12 rounded-3xl shadow-xl">
+    <h3 className="font-display text-2xl md:text-3xl font-bold text-cta-white mb-4">
+      Pronto para dar o primeiro passo?
+    </h3>
+
+    <p className="text-cta-muted mb-6 max-w-xl mx-auto">
+      Agende uma avaliação inicial e descubra como podemos ajudar 
+      seu filho a alcançar todo seu potencial.
+    </p>
+
+    <Button size="lg" variant="secondary" className="text-lg px-8" asChild>
+      <Link to="/agendar">Agende Agora</Link>
+    </Button>
+  </div>
+</div>
+</div>
     </section>
   );
 };

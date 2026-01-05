@@ -28,13 +28,16 @@ const ContactSection = () => {
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <div className="font-semibold text-foreground">Endereço</div>
-                  <div className="text-muted-foreground">
-                    Rua Exemplo, 123 - Centro<br />
-                    Cidade - Estado, CEP 00000-000
-                  </div>
-                </div>
-              </div>
+            <div className="font-semibold text-foreground">Endereço</div>
+
+            <div className="text-muted-foreground">
+              <p>Rua Vereador José Moreira, 263 - Perpétuo do Socorro</p>
+              <p>Paulo Afonso - BA</p>
+              <p>Avenida Djalma Wanderlei, 1066 - Centro</p>
+              <p>Petrolândia - PE</p>
+            </div>
+          </div>
+          </div>
 
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center shrink-0">
@@ -42,7 +45,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-foreground">Telefone / WhatsApp</div>
-                  <div className="text-muted-foreground">(00) 99999-9999</div>
+                  <div className="text-muted-foreground">Petrolândia - (87) 99135-6711</div>
+                  <div className="text-muted-foreground">Paulo Afonso - (75) 98285-6964</div>
                 </div>
               </div>
 
@@ -52,7 +56,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-foreground">E-mail</div>
-                  <div className="text-muted-foreground">contato@clinicaattento.com.br</div>
+                  <div className="text-muted-foreground">attentoclinicadh@gmail.com</div>
                 </div>
               </div>
 
@@ -70,10 +74,7 @@ const ContactSection = () => {
               </div>
             </div>
 
-            {/* Map placeholder */}
-            <div className="mt-8 h-64 bg-muted rounded-2xl flex items-center justify-center">
-              <p className="text-muted-foreground">Mapa da localização</p>
-            </div>
+            
 
             <Button asChild size="lg" className="w-full mt-8">
               <Link to="/agendar">

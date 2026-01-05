@@ -30,7 +30,7 @@ const HeroSection = () => {
           
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
             Intervenção do{" "}
-            <span className="text-gradient">Desenvolvimento Humano</span>
+            <span className="text-5xl font-bold text-gradient-strong">Desenvolvimento Humano</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.2s" }}>

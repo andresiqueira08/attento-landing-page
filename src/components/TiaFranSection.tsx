@@ -43,7 +43,7 @@ const TiaFranSection = () => {
               Tia Fran
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              Francisca, carinhosamente conhecida como Tia Fran, é a fundadora e alma da Clínica Attento. 
+              Francine, carinhosamente conhecida como Tia Fran, é a fundadora e alma da Clínica Attento. 
               Com uma trajetória dedicada ao desenvolvimento de crianças neurodiversas, ela transformou 
               sua paixão em uma missão de vida.
             </p>
