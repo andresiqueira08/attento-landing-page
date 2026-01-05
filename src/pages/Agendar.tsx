@@ -43,21 +43,81 @@ const profissionais = [
   {
     nome: "Tia Fran",
     especialidade: "Neurociência e Desenvolvimento Humano",
-    linkAgendamento: "#",
+    linkAgendamento: "https://form.jotform.com/253494842947068",
   },
   {
-    nome: "Profissional 2",
+    nome: "Dra. Ana Paula",
     especialidade: "Psicopedagogia",
     linkAgendamento: "#",
   },
   {
-    nome: "Profissional 3",
+    nome: "Dra. Carla",
     especialidade: "Fonoaudiologia",
     linkAgendamento: "#",
   },
   {
-    nome: "Profissional 4",
+    nome: "Dra. Beatriz",
     especialidade: "Terapia Ocupacional",
+    linkAgendamento: "#",
+  },
+  {
+    nome: "Dr. Lucas",
+    especialidade: "Psicologia Infantil",
+    linkAgendamento: "#",
+  },
+  {
+    nome: "Dra. Mariana",
+    especialidade: "Neuropsicologia",
+    linkAgendamento: "#",
+  },
+  {
+    nome: "Dra. Juliana",
+    especialidade: "Psicomotricidade",
+    linkAgendamento: "#",
+  },
+  {
+    nome: "Dra. Fernanda",
+    especialidade: "Intervenção ABA",
+    linkAgendamento: "#",
+  },
+  {
+    nome: "Dra. Patrícia",
+    especialidade: "Musicoterapia",
+    linkAgendamento: "#",
+  },
+  {
+    nome: "Dr. Rafael",
+    especialidade: "Educação Física Adaptada",
+    linkAgendamento: "#",
+  },
+  {
+    nome: "Dra. Camila",
+    especialidade: "Nutrição Comportamental",
+    linkAgendamento: "#",
+  },
+  {
+    nome: "Dra. Isabela",
+    especialidade: "Arteterapia",
+    linkAgendamento: "#",
+  },
+  {
+    nome: "Dra. Renata",
+    especialidade: "Estimulação Cognitiva",
+    linkAgendamento: "#",
+  },
+  {
+    nome: "Dr. Marcos",
+    especialidade: "Neuropediatria",
+    linkAgendamento: "#",
+  },
+  {
+    nome: "Dra. Letícia",
+    especialidade: "Orientação Familiar",
+    linkAgendamento: "#",
+  },
+  {
+    nome: "Dra. Amanda",
+    especialidade: "Integração Sensorial",
     linkAgendamento: "#",
   },
 ];

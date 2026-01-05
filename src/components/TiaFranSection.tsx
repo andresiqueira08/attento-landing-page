@@ -1,4 +1,5 @@
-import { Award, GraduationCap, Heart, Star } from "lucide-react";
+import { Award, GraduationCap, Heart, Star, Calendar } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const TiaFranSection = () => {
   return (
@@ -84,13 +85,20 @@ const TiaFranSection = () => {
               </div>
             </div>
 
-            <blockquote className="mt-8 p-6 bg-coral-light/10 rounded-2xl border-l-4 border-primary">
+            <blockquote className="mt-8 p-6 bg-primary/10 rounded-2xl border-l-4 border-primary">
               <p className="text-foreground italic">
                 "Cada criança carrega em si um potencial imenso. Nosso papel é descobrir a chave 
                 que abre a porta do aprendizado para cada uma delas."
               </p>
               <footer className="mt-3 font-semibold text-primary">— Tia Fran</footer>
             </blockquote>
+
+            <Button asChild size="lg" className="mt-8 w-full sm:w-auto">
+              <a href="https://form.jotform.com/253494842947068" target="_blank" rel="noopener noreferrer">
+                <Calendar className="w-5 h-5 mr-2" />
+                Agende sua consulta agora
+              </a>
+            </Button>
           </div>
         </div>
       </div>
