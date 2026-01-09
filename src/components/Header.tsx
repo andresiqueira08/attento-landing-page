@@ -19,7 +19,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <a href="#inicio" className="flex items-center">
-            <img src="/src/assets/attento-logo.svg" alt="Attento - Clínica de Intervenção do Desenvolvimento Humano" className="h-12" />
+            <img src="/src/assets/logo-site.jpg" alt="Attento - Clínica de Intervenção do Desenvolvimento Humano" className="h-12" />
           </a>
 
           {/* Desktop Navigation */}

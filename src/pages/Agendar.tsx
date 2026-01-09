@@ -20,6 +20,7 @@ import patriciaLimaImage from "@/assets/patricia-lima.jpeg";
 import ruthImage from "@/assets/ruth-sampaio.jpeg";
 import patriciaSundesImage from "@/assets/patricia-sandes.jpeg";
 import filipeImage from "@/assets/filipe-ferreira.jpeg";
+import tacianaImage from "@/assets/taciana-costa.jpeg";
 
 interface ProfissionalCardProps {
   nome: string;
@@ -159,7 +160,13 @@ const profissionais = [
     nome: "Dra. Patricia Lima",
     especialidade: "Neuropsicopedagoga",
     foto: patriciaLimaImage,
-    linkAgendamento: "#",
+    linkAgendamento: "https://wa.me/557582856964?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Patricia%20Lima",
+  },
+  {
+    nome: "Dra. Taciana Costa",
+    especialidade: "Terapeuta ocupacional",
+    foto: tacianaImage,
+    linkAgendamento: "https://wa.me/5587991356711?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dr.%20Taciana%20Costa",
   },
   {
     nome: "Dra. Ruth Sampaio",
