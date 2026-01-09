@@ -1,5 +1,6 @@
 import { Award, GraduationCap, Heart, Star, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import tiaFranImage from "@/assets/tia-fran.jpeg";
 
 const TiaFranSection = () => {
   return (
@@ -13,14 +14,11 @@ const TiaFranSection = () => {
           {/* Image placeholder - would be replaced with actual photo */}
           <div className="relative">
             <div className="aspect-[4/5] bg-gradient-to-br from-coral-light/30 to-teal-light/30 rounded-3xl overflow-hidden relative">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="w-32 h-32 mx-auto bg-primary/20 rounded-full flex items-center justify-center mb-4">
-                    <Heart className="w-16 h-16 text-primary" />
-                  </div>
-                  <p className="text-muted-foreground">Foto da Tia Fran</p>
-                </div>
-              </div>
+              <img 
+                src={tiaFranImage} 
+                alt="Tia Fran - Fundadora da Clínica Attento" 
+                className="w-full h-full object-cover"
+              />
             </div>
             
             {/* Floating badge */}
