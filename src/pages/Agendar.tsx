@@ -156,6 +156,7 @@ const Agendar = () => {
               key={prof.nome}
               nome={prof.nome}
               especialidade={prof.especialidade}
+              foto={prof.foto}
               linkAgendamento={prof.linkAgendamento}
             />
           ))}
