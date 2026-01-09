@@ -19,6 +19,7 @@ import manoelaImage from "@/assets/manoela-carolina.jpeg";
 import patriciaLimaImage from "@/assets/patricia-lima.jpeg";
 import ruthImage from "@/assets/ruth-sampaio.jpeg";
 import patriciaSundesImage from "@/assets/patricia-sandes.jpeg";
+import filipeImage from "@/assets/filipe-ferreira.jpeg";
 
 interface ProfissionalCardProps {
   nome: string;
@@ -149,6 +150,12 @@ const profissionais = [
     linkAgendamento: "https://wa.me/557582856964?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Manoela%20Carolina",
   },
   {
+    nome: "Dr. Filipe Ferreira",
+    especialidade: "Fisioterapeuta",
+    foto: filipeImage,
+    linkAgendamento: "https://wa.me/5587991356711?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dr.%20Filipe%20Ferreira",
+  },
+  {
     nome: "Dra. Patricia Lima",
     especialidade: "Neuropsicopedagoga",
     foto: patriciaLimaImage,
@@ -166,6 +173,7 @@ const profissionais = [
     foto: patriciaSundesImage,
     linkAgendamento: "#",
   },
+
 ];
 
 const Agendar = () => {
