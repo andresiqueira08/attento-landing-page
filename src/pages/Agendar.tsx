@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
+import tiaFranImage from "@/assets/tia-fran.jpeg";
+import anaPaulaImage from "@/assets/ana-paula.jpeg";
 
 interface ProfissionalCardProps {
   nome: string;
@@ -43,11 +45,13 @@ const profissionais = [
   {
     nome: "Tia Fran",
     especialidade: "Neurociência e Desenvolvimento Humano",
+    foto: tiaFranImage,
     linkAgendamento: "https://form.jotform.com/253494842947068",
   },
   {
     nome: "Dra. Ana Paula",
     especialidade: "Psicopedagogia",
+    foto: anaPaulaImage,
     linkAgendamento: "#",
   },
   {
