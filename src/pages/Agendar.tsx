@@ -3,6 +3,22 @@ import { Calendar, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import tiaFranImage from "@/assets/tia-fran.jpeg";
 import anaPaulaImage from "@/assets/ana-paula.jpeg";
+import andreiaAraujoImage from "@/assets/Andreia Araujo.jpeg";
+import amandaCarolinaImage from "@/assets/Amanda Carolina.jpeg";
+import marceloSandersImage from "@/assets/marcelo-sanders.jpeg";
+import valmirAlvesImage from "@/assets/valmir-alves.jpeg";
+import janayneImage from "@/assets/janayne.jpeg";
+import geissaImage from "@/assets/geissa.jpeg";
+import keilaImage from "@/assets/keila-melo.jpeg";
+import sabrineImage from "@/assets/sabrine-canonici.jpeg";
+import thaisImage from "@/assets/thais-nascimento.jpeg";
+import kesiaImage from "@/assets/kessia-araujo.jpeg";
+import jenniferImage from "@/assets/jenifer.jpeg";
+import francyneImage from "@/assets/francyne-roque.jpeg";
+import manoelaImage from "@/assets/manoela-carolina.jpeg";
+import patriciaLimaImage from "@/assets/patricia-lima.jpeg";
+import ruthImage from "@/assets/ruth-sampaio.jpeg";
+import patriciaSundesImage from "@/assets/patricia-sandes.jpeg";
 
 interface ProfissionalCardProps {
   nome: string;
@@ -49,79 +65,105 @@ const profissionais = [
     linkAgendamento: "https://form.jotform.com/253494842947068",
   },
   {
-    nome: "Dra. Ana Paula",
-    especialidade: "Psicopedagogia",
+    nome: "Dra. Sabrine Canonici",
+    especialidade: "Neuropsicopedagoga",
+    foto: sabrineImage,
+    linkAgendamento: "https://inforempresa.com.br/sabrinecanonici?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnBxKgRVlUuXDFATn24CVzwDsd8doo5GFhtPQYh1T_RKRMimBfIDcuo8FNuPE_aem_wESEXqhDJSKl1J0tfXXCyA",
+  },
+  {
+    nome: "Dra. Larisse Farias",
+    especialidade: "Fisioterapeuta",
     foto: anaPaulaImage,
+    linkAgendamento: "https://wa.me/557582856964?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Larisse%20Farias",
+  },
+  {
+    nome: "Dra. Andreia Araujo",
+    especialidade: "Pediatria",
+    foto: andreiaAraujoImage,
+    linkAgendamento: "https://wa.me/557582856964?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Andreia%20Araujo",
+  },
+  {
+    nome: "Dra. Amanda Carolina",
+    especialidade: "Psicóloga",
+    foto: amandaCarolinaImage,
+    linkAgendamento: "https://wa.me/557582856964?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Amanda%20Carolina",
+  },
+  {
+    nome: "Dr. Marcelo Sanders",
+    especialidade: "Psicólogo",
+    foto: marceloSandersImage,
+    linkAgendamento: "https://wa.me/5587991356711?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dr.%20Marcelo%20Sanders",
+  },
+  {
+    nome: "Dr. Valmir Alves",
+    especialidade: "Psicólogo",
+    foto: valmirAlvesImage,
+    linkAgendamento: "https://wa.me/5587991356711?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dr.%20Valmir%20Alves",
+  },
+  {
+    nome: "Dra. Janayne Chrisnayle",
+    especialidade: "Psicóloga infatil",
+    foto: janayneImage,
+    linkAgendamento: "https://wa.me/5587991356711?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Janayne%20ChrisNayle",
+  },
+  {
+    nome: "Dra. Geissa Larissa",
+    especialidade: "Atendimento de neurodesenvolvimento infantil",
+    foto: geissaImage,
+    linkAgendamento: "https://wa.me/5587991356711?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Geissa%20Larissa",
+  },
+  {
+    nome: "Dra. Keila Melo",
+    especialidade: "Psicopedagoga",
+    foto: keilaImage,
+    linkAgendamento: "https://wa.me/5587991356711?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Keila%20Melo",
+  },
+  {
+    nome: "Dra. Thais Nascimento",
+    especialidade: "Psicóloga",
+    foto: thaisImage,
+    linkAgendamento: "https://wa.me/5587991356711?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Thais%20Nascimento",
+  },
+  {
+    nome: "Dra. Kesia Araujo",
+    especialidade: "Psicopedagoga",
+    foto: kesiaImage,
+    linkAgendamento: "https://wa.me/557582856964?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Kesia%20Araujo",
+  },
+  {
+    nome: "Dra. Jennifer Reis",
+    especialidade: "Fisioterapeuta",
+    foto: jenniferImage,
+    linkAgendamento: "https://wa.me/557582856964?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Jennifer%20Reis",
+  },
+  {
+    nome: "Dra. Francyne Roque",
+    especialidade: "Terapeuta ocupacional",
+    foto: francyneImage,
+    linkAgendamento: "https://wa.me/557582856964?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Francyne%20Roque",
+  },
+  {
+    nome: "Dra. Manoela Carolina",
+    especialidade: "Psicologa infantil",
+    foto: manoelaImage,
+    linkAgendamento: "https://wa.me/557582856964?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20com%20%20Dra.%20Manoela%20Carolina",
+  },
+  {
+    nome: "Dra. Patricia Lima",
+    especialidade: "Neuropsicopedagoga",
+    foto: patriciaLimaImage,
     linkAgendamento: "#",
   },
   {
-    nome: "Dra. Carla",
-    especialidade: "Fonoaudiologia",
+    nome: "Dra. Ruth Sampaio",
+    especialidade: "Psicóloga",
+    foto: ruthImage,
     linkAgendamento: "#",
   },
   {
-    nome: "Dra. Beatriz",
-    especialidade: "Terapia Ocupacional",
-    linkAgendamento: "#",
-  },
-  {
-    nome: "Dr. Lucas",
-    especialidade: "Psicologia Infantil",
-    linkAgendamento: "#",
-  },
-  {
-    nome: "Dra. Mariana",
-    especialidade: "Neuropsicologia",
-    linkAgendamento: "#",
-  },
-  {
-    nome: "Dra. Juliana",
-    especialidade: "Psicomotricidade",
-    linkAgendamento: "#",
-  },
-  {
-    nome: "Dra. Fernanda",
-    especialidade: "Intervenção ABA",
-    linkAgendamento: "#",
-  },
-  {
-    nome: "Dra. Patrícia",
-    especialidade: "Musicoterapia",
-    linkAgendamento: "#",
-  },
-  {
-    nome: "Dr. Rafael",
-    especialidade: "Educação Física Adaptada",
-    linkAgendamento: "#",
-  },
-  {
-    nome: "Dra. Camila",
-    especialidade: "Nutrição Comportamental",
-    linkAgendamento: "#",
-  },
-  {
-    nome: "Dra. Isabela",
-    especialidade: "Arteterapia",
-    linkAgendamento: "#",
-  },
-  {
-    nome: "Dra. Renata",
-    especialidade: "Estimulação Cognitiva",
-    linkAgendamento: "#",
-  },
-  {
-    nome: "Dr. Marcos",
-    especialidade: "Neuropediatria",
-    linkAgendamento: "#",
-  },
-  {
-    nome: "Dra. Letícia",
-    especialidade: "Orientação Familiar",
-    linkAgendamento: "#",
-  },
-  {
-    nome: "Dra. Amanda",
-    especialidade: "Integração Sensorial",
+    nome: "Dra. Patricia Sandes",
+    especialidade: "Nutrição",
+    foto: patriciaSundesImage,
     linkAgendamento: "#",
   },
 ];

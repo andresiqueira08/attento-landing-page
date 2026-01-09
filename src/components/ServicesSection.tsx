@@ -71,9 +71,6 @@ const ServicesSection = () => {
               <p className="text-muted-foreground mb-4">
                 {service.description}
               </p>
-              <a href="#contato" className="text-primary font-semibold inline-flex items-center gap-1 hover:gap-2 transition-all">
-                Saiba mais →
-              </a>
             </div>
           ))}
         </div>
